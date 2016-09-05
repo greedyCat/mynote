@@ -21,7 +21,7 @@ public class BaseDao {
 		}
 		try {
 			pst = (PreparedStatement) conn.prepareStatement(sql);
-			System.out.println(sql);
+			 
 			rs = pst.executeQuery(sql);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
