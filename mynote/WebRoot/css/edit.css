@@ -1,0 +1,87 @@
+/*          编辑页面                         */
+
+.edit-left{
+	border-right: 1px solid #ECECEC;
+	width: 6%;
+	height: 100%;
+	background-color: #F8F8F8;
+	float: left;
+}
+.edit-left:HOVER{
+	background-color: #eee; 
+}
+.edit-left img{
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.edit-right{
+	 
+	width: 93%;
+	height: 99%;
+	float: right;		
+}
+.right-top{
+	width: 1000px;
+	height: 7%;
+	border-bottom: 1px solid #eee; 
+ 
+	margin-top: 30px;
+	margin-left: 125px;
+}
+.noteback{
+	position: relative;
+ 
+	top:20px;
+}
+.noteback a{
+  text-decoration: none;
+  color: #999;
+  font-size: 15px;
+}
+.noteimg{
+	position: relative;
+	top:22px;
+	right: 1px;
+}
+.savebt{
+	position: absolute;
+	left: 1250px;
+	top:20px;
+	height: 10px;
+	width: 60px;
+	height: 32px;
+	border-radius:5px;
+	color:#fff;
+	cursor:pointer;
+	background-color: #2DBE60;
+}
+.savebt p{
+	text-align: center;
+	line-height: 0px;
+}
+.right-next{
+	width: 1000px;
+	height: 90%;
+    margin-top: 20px;
+	margin-left: 125px;
+}
+.right-next .wrap-title .note-title{
+	
+	width: 100%;
+	height: 45px;
+	border: none;
+	font-size: 20px;
+	color:#2DC4A3;
+}
+
+.right-next .wrap-detail .note-detail
+{
+	border: none;
+	overflow: hidden;
+	size: 8px;
+	color: #666;
+}
+.ke-container .ke-container-qq{
+	width: 998px;
+	border:none;
+}

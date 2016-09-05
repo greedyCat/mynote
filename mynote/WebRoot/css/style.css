@@ -1,0 +1,238 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: "微软雅黑";	
+}
+#head{	
+	width:100%;
+	height:60px;
+	background-color: #3a464d;
+}
+
+.logo{
+	margin-left: 40px;
+	padding-top: 10px;
+}
+
+.ulogin,.ulogout{
+	display:inline-block;
+	position: absolute;
+}
+
+.ulogin{
+	left: 1240px;
+	top: 20px;
+	padding-right: 15px;
+}
+
+.ulogout{
+	left: 1290px;
+	top: 22px;
+	padding-left: 15px;
+}
+
+.ulogin a,.ulogout a{
+    color: #fff;	
+    text-decoration: none;
+}
+
+.ulogin{
+	border-right: 1px solid #fff;
+}
+
+#center{
+ width: 100%;	
+ height: 100%;
+ margin-top: 3px;
+ background-color: #f6f6f6;
+ overflow: scroll;
+}
+
+#left{
+	width: 22%;
+	height: 100%;
+	float:left;
+}
+
+#right{
+    width: 77%;
+	height: 100%;
+	float:right;   
+}
+
+.info{
+	height: 130px;
+	width:1000px;
+	margin-top: 10px;
+	margin-left: 12px;
+	background-color: #fff;	
+	overflow:hidden;
+}
+
+.info-title{
+  height: 40px;	
+  width: 950px;
+  border-bottom:1px solid #ddd;
+  margin-left: 23px;
+}
+
+.titles{
+	line-height: 40px;
+	text-decoration: none;
+	color: #555;
+	font-size: 16px;
+	font-weight: 200;
+}
+.title{
+	height: 19%;
+	background-color: #ededed;
+}
+
+.left-title{
+    position:relative;
+	left: 20px;	
+}
+.left-add{
+	position:relative;
+	left: 160px;
+	top:-2px;
+	cursor: pointer;
+}
+.left-top{
+	line-height: 126px;
+	margin-left: 30px;
+}
+.times{
+	color: #999;
+	font-size: 12px;
+	margin-left: 30px;
+}
+
+.info-content{
+	 height: 40px;	
+     width: 950px; 
+     margin-left: 23px;
+     
+}
+.recordtype{
+	background-color: #fff;
+	height: auto;
+}
+.contents{
+	 margin-top: 10px;
+	 font-size: 14px;
+	 color:#999;
+	 
+}
+
+.right-top{
+  margin-left: 12px;
+  height: 80px;
+  width:1000px;
+ 
+}
+.edit{
+	display:inline-block;
+	position: relative;
+	left: 880px;
+	top: -26px;
+	cursor: pointer;
+}
+.delete{
+	display:inline-block;
+	position: relative;
+	left: 890px;
+	top: -26px;
+	cursor: pointer;
+}
+.creatnote{
+	width: 98px;
+	height: 30px;
+	border-radius:20px;
+	background-color: #7ac161; 
+	position: relative;
+	left: 884px;
+	top:3px;
+	color: #fff;
+}
+.creatnote:HOVER{
+  cursor: pointer;
+}
+.creatnote_add{
+	
+	position: relative;
+    left: 8px;
+    top: 6px;
+}
+.creatnote_title{
+	position: relative;
+    left: 12px;
+    top: 2px;
+    font-size: 13px;
+}
+.searcher{
+  position: relative;
+  top: 35px;
+}
+.searcher{
+  position: relative;
+  top: 35px;
+}
+.keyword{
+	width: 260px;
+	padding-left:15px;
+	height: 30px;
+	border-radius:15px;
+	border: 1px solid #eee;
+}
+.keyword-search{
+	position: relative;
+	left: -30px;
+	top:4px;
+}
+.onetype{
+	width: 100%;
+	height: 92px;	
+	border-bottom:1px solid #eee;
+	transition:All 0.4s ease-in-out;
+	-webkit-transition:All 0.4s ease-in-out;
+	-moz-transition:All 0.4s ease-in-out;
+	-o-transition:All 0.4s ease-in-out;
+}
+
+.onetype:HOVER{
+	transform:scale(1.06);
+	-webkit-transform:scale(1.06);
+	-moz-transform:scale(1.06);
+	-o-transform:scale(1.06);
+	-ms-transform:scale(1.06);
+	background-color: #7ac161;	
+ 
+}
+.onetype .onetype-name{
+	position: relative;
+	left:40px ;
+	top: 30px;
+	font-size: 18px;
+}
+.onetype .onetype-name a{
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+  .onetype-name a:HOVER{
+	color: #fff;	 
+} 
+
+.typeedit{
+	display:inline-block;
+	position: relative;
+	left: 215px;
+	top: -15px;
+}
+.typedel{
+	display:inline-block;
+	position: relative;
+	left: 225px;
+	top: -15px;
+}

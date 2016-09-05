@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_6_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/JarsExtend/thumbnailator-0.4.2.jar"/>
+	<classpathentry kind="lib" path="D:/JarsExtend/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="D:/JarsExtend/gson-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/kindeditor/jsp/lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/kindeditor/jsp/lib/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/kindeditor/jsp/lib/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarsExtend/poi-3.13-20150929.jar"/>
+	<classpathentry kind="lib" path="D:/JarsExtend/poi-ooxml-3.13-20150929.jar"/>
+	<classpathentry kind="lib" path="D:/JarsExtend/poi-scratchpad-3.13-20150929.jar"/>
+	<classpathentry kind="lib" path="D:/JarsExtend/poi-excelant-3.13-20150929.jar"/>
+	<classpathentry kind="lib" path="D:/JarsExtend/poi-ooxml-schemas-3.13-20150929.jar"/>
+	<classpathentry kind="lib" path="D:/JarsExtend/oscache-2.4.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
